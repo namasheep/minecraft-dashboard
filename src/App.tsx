@@ -164,10 +164,6 @@ export default function App() {
                 >
                   IP Address: {formattedIp}
                 </Typography>
-
-                <Typography color="text.secondary">
-                  Uptime: Coming soon…
-                </Typography>
               </CardContent>
             </Card>
           </Grid>
@@ -211,10 +207,6 @@ export default function App() {
                     Starting...
                   </Button>
                 )}
-
-                <Typography sx={{ mt: 2 }} color="text.secondary">
-                  Auto-stop timer: Coming soon…
-                </Typography>
               </CardContent>
             </Card>
           </Grid>
@@ -236,9 +228,6 @@ export default function App() {
             <Typography variant="h6" gutterBottom>
               Players Online
             </Typography>
-            <Typography color="text.secondary">
-              0 players (mock data)
-            </Typography>
           </CardContent>
         </Card>
 
@@ -254,9 +243,7 @@ export default function App() {
             boxShadow: "0 6px 20px rgba(0,0,0,0.4)",
           }}
         >
-          <CardContent>
-            <Typography color="text.secondary">Coming soon…</Typography>
-          </CardContent>
+          <CardContent></CardContent>
         </Card>
       </Box>
     </Box>
